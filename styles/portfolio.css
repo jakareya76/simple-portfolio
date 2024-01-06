@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #fd6e0a;
+  padding: 13px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  color: #fd6e0a;
+  background-color: #fff;
+  padding: 13px 30px;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  gap: 25px;
+}
+
+/* Navbar Styles */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.nav-title span {
+  color: #fd6e0a;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+
+/* Header Styles */
+
+.header {
+  background-color: #fff8f3;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 30px 150px;
+}
+
+.banner-content {
+}
+
+.profile-pic {
+  width: 500px;
+}
